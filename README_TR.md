@@ -10,7 +10,7 @@ OIIAI Code, VS Code içinde eğlenceli bir “kedi eşlikçisi” deneyimi sunar
 - Seçilen görseli sürüklenebilir floating panelde açma
 
 ## Kurulum
-- VS Code Marketplace üzerinden yükle: https://marketplace.visualstudio.com/items?itemName=murmurlab.oiiai-code
+- VS Code Marketplace üzerinden yükle: https://marketplace.visualstudio.com/items?itemName=murmurlab.oiiai
 - Geliştirici kurulumu: `npm install` → `npm run compile` → VS Code’da F5.
 
 ## VSIX Build
@@ -29,4 +29,4 @@ Katkılar memnuniyetle karşılanır. Lütfen bir issue açın veya PR gönderin
 ## Lisans
 Bu proje MIT lisansı ile lisanslanmıştır.
 
-![Image Description](./image.png)
+<video src="./video.mp4" controls playsinline loop muted></video>

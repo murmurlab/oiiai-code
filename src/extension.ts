@@ -7,11 +7,11 @@ export function activate(context: vscode.ExtensionContext) {
 	const provider = new PanelViewProvider(context.extensionUri);
 
 	context.subscriptions.push(
-		vscode.window.registerWebviewViewProvider('oiiai-code.panelView', provider)
+		vscode.window.registerWebviewViewProvider('oiiai.panelView', provider)
 	);
 
 	context.subscriptions.push(
-		vscode.commands.registerCommand('oiiai-code.openFloatingImage', async () => {
+		vscode.commands.registerCommand('oiiai.openFloatingImage', async () => {
 			const fileUri = await vscode.window.showOpenDialog({
 				canSelectMany: false,
 				filters: { 'Images': ['png', 'jpg', 'jpeg', 'gif', 'webp', 'svg'] },
@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
 	);
 
 	context.subscriptions.push(
-		vscode.commands.registerCommand('oiiai-code.toggleFlyingCat', () => {
+		vscode.commands.registerCommand('oiiai.toggleFlyingCat', () => {
 			FlyingCat.toggle(context.extensionUri, provider);
 		})
 	);

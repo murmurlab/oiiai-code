@@ -1,4 +1,4 @@
-[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Install-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=murmurlab.oiiai-code)
+[![VS Code Marketplace](https://img.shields.io/badge/VS%20Code-Install-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=murmurlab.oiiai)
 
 # OIIAI Code Extension
 
@@ -12,7 +12,7 @@ OIIAI Code brings a playful “cat companion” experience to VS Code. The Activ
 - Open a selected image in a draggable floating panel
 
 ## Installation
-- Install from the VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=murmurlab.oiiai-code
+- Install from the VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=murmurlab.oiiai
 - Dev setup: `npm install` → `npm run compile` → press F5 in VS Code.
 
 ## Build VSIX
@@ -31,4 +31,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## License
 This project is licensed under the MIT License.
 
-![Image Description](./image.png)
+<video src="./video.mp4" controls playsinline loop muted></video>

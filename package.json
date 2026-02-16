@@ -4,7 +4,7 @@
   "description": "The oiiaiauiiiiai cat for VS Code",
   "readme": "README.md",
   "publisher": "murmurlab",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -28,18 +28,18 @@
       "oiiai-panel": [
         {
           "type": "webview",
-          "id": "oiiai-code.panelView",
+          "id": "oiiai.panelView",
           "name": "OIIAI Panel"
         }
       ]
     },
     "commands": [
       {
-        "command": "oiiai-code.openFloatingImage",
+        "command": "oiiai.openFloatingImage",
         "title": "OIIAI: Open Floating Image"
       },
       {
-        "command": "oiiai-code.toggleFlyingCat",
+        "command": "oiiai.toggleFlyingCat",
         "title": "OIIAI: Toggle Flying Cat 🐱"
       }
     ]
