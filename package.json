@@ -1,9 +1,10 @@
 {
   "name": "oiiai-code",
   "displayName": "OIIAI Code",
-  "description": "A custom webview panel for VS Code",
+  "description": "The oiiaiauiiiiai cat for VS Code",
+  "readme": "README.md",
   "publisher": "murmurlab",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -53,7 +54,8 @@
     "typescript": "^4.9.5"
   },
   "repository": {
-	"url": "https://github.com/murmurlab/oiiai-code"
+    "type": "git",
+    "url": "https://github.com/murmurlab/oiiai-code"
   },
   "license": "MIT"
 }
