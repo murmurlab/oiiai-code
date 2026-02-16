@@ -1,0 +1,59 @@
+{
+  "name": "oiiai-code",
+  "displayName": "OIIAI Code",
+  "description": "A custom webview panel for VS Code",
+  "publisher": "murmurlab",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "media/cat-idle.png",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "oiiai-panel",
+          "title": "OIIAI",
+          "icon": "$(smiley)"
+        }
+      ]
+    },
+    "views": {
+      "oiiai-panel": [
+        {
+          "type": "webview",
+          "id": "oiiai-code.panelView",
+          "name": "OIIAI Panel"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "oiiai-code.openFloatingImage",
+        "title": "OIIAI: Open Floating Image"
+      },
+      {
+        "command": "oiiai-code.toggleFlyingCat",
+        "title": "OIIAI: Toggle Flying Cat 🐱"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+	"url": "https://github.com/murmurlab/oiiai-code"
+  },
+  "license": "MIT"
+}
