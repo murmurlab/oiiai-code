@@ -11,6 +11,8 @@ OIIAI Code brings a playful “cat companion” experience to VS Code. The Activ
 - Flying cat editor decoration (toggle)
 - Open a selected image in a draggable floating panel
 
+![](./gif.gif)
+
 ## Installation
 - Install from the VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=murmurlab.oiiai
 - Dev setup: `npm install` → `npm run compile` → press F5 in VS Code.
@@ -31,4 +33,5 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ## License
 This project is licensed under the MIT License.
 
-<video src="./video.mp4" controls playsinline loop muted></video>
+![s](./video.mp4)
+<video src="./video.mp4" controls playsinline loop></video>

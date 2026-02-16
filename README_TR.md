@@ -9,6 +9,8 @@ OIIAI Code, VS Code içinde eğlenceli bir “kedi eşlikçisi” deneyimi sunar
 - Editör üzerinde uçan kedi dekorasyonu (toggle)
 - Seçilen görseli sürüklenebilir floating panelde açma
 
+![](./gif.gif)
+
 ## Kurulum
 - VS Code Marketplace üzerinden yükle: https://marketplace.visualstudio.com/items?itemName=murmurlab.oiiai
 - Geliştirici kurulumu: `npm install` → `npm run compile` → VS Code’da F5.
@@ -29,4 +31,5 @@ Katkılar memnuniyetle karşılanır. Lütfen bir issue açın veya PR gönderin
 ## Lisans
 Bu proje MIT lisansı ile lisanslanmıştır.
 
-<video src="./video.mp4" controls playsinline loop muted></video>
+![s](./video.mp4)
+<video src="./video.mp4" controls playsinline loop></video>
